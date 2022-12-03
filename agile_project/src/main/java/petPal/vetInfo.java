@@ -12,7 +12,7 @@ import java.sql.SQLException;
 public class vetInfo {
 
     private static final String JDBC_DRIVER = "com.mysql.jdbc.Driver";
-    private static final String URL = "jdbc:mysql://localhost:3306/petpal";
+    private static final String URL = "jdbc:mysql://localhost:3306/petpals";
     //System.getenv("MYSQL_URL");
 
     /**
@@ -20,7 +20,7 @@ public class vetInfo {
      */
     private static final String DB_USER = "root";
     //System.getenv("MYSQL_USERNAME");
-    private static final String DB_PWD = "new_password";
+    private static final String DB_PWD = "password";
     //System.getenv("MYSQL_PASSWORD");
 
     private static Connection initializeConnection() {

@@ -10,7 +10,7 @@ import petPal.vetInfo;
 public class VertxRouteHandler extends AbstractVerticle {
 
 
-    private int port = 8080;
+    private int port = 8081;
 
     @Override
     public void start() {
